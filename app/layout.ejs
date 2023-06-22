@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
@@ -55,35 +56,46 @@
       </div>
     </div>
   </nav> -->
-<div class="nav p-60 d-flex justify-content-between align-items-center">
-  <h1 class="ff-oto">Pin -Ru <br>
-    Lin</h1>
+  <div id="nav" class="nav p-60 d-flex justify-content-between align-items-center">
+    <h1 class="ff-oto">Pin -Ru <br>
+      Lin</h1>
 
     <ul class="nav justify-content-center">
-      <li class="nav-item me-60">
-        <a class="nav-link fs-20" aria-current="page" href="#">關於我<span class="fs-14 ff-pap ms-16">about</span></a>
-        <div class="underline mt-12"></div>
+      <li class="nav-item me-32">
+        <a class="nav-link fs-20" aria-current="page" href="#">關於我<span class="fs-14 ff-pap ms-16">about</span>
+          <div class="underline mt-8"></div>
+        </a>
       </li>
-      <li class="nav-item me-60">
-        <a class="nav-link fs-20" aria-current="page" href="#">技能<span class="fs-14 ff-pap ms-16">skills</span></a>
+      <li class="nav-item me-32">
+        <a class="nav-link fs-20" aria-current="page" href="#">技能<span class="fs-14 ff-pap ms-16">skills</span>
+          <div class="underline mt-8"></div>
+        </a>
       </li>
-      <li class="nav-item me-60">
-        <a class="nav-link fs-20" aria-current="page" href="#">經歷<span class="fs-14 ff-pap ms-16">experience</span></a>
+      <li class="nav-item me-32">
+        <a class="nav-link fs-20" aria-current="page" href="#">經歷<span class="fs-14 ff-pap ms-16">experience</span>
+          <div class="underline mt-8"></div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link fs-20" aria-current="page" href="#">作品分享<span class="fs-14 ff-pap ms-16">portfolio</span></a>
+        <a class="nav-link fs-20" aria-current="page" href="#">作品分享<span class="fs-14 ff-pap ms-16">portfolio</span>
+          <div class="underline mt-8"></div>
+        </a>
       </li>
     </ul>
 
     <div class="contact">
       <a href="#contact" class="contact-body ps-12 pe-16 py-8 rounded-pill">
-      <p class="m-0 me-8"><span class="material-symbols-outlined">
-        magic_button
-        </span></p>
+        <p class="m-0 me-8"><span class="material-symbols-outlined">
+            magic_button
+          </span></p>
         <h2 class="m-0 fs-20 fw-bold">聯絡我</h2>
       </a>
     </div>
-</div>
+  </div>
+
+  <a href="#nav" class="side-btn d-block position-fixed">
+    <div class="main-img"></div>
+  </a>
   <%- contents %>
 
     <footer class="footer m-auto">
@@ -94,13 +106,13 @@
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
     <script>
-      (function(d) {
+      (function (d) {
         var config = {
           kitId: 'tbl5xfy',
           scriptTimeout: 3000,
           async: true
         },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
       })(document);
     </script>
 </body>
