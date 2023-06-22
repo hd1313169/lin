@@ -16630,12 +16630,22 @@ fieldset:disabled .btn {
   color: #479F98;
 }
 
-.nav-item:hover {
-  color: #F0C49E;
+.nav-link .underline {
+  visibility: hidden;
+  width: 136px;
+  height: 6px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/underline.png?raw=true);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.underline:hover {
-  visibility: visible;
+.nav-link:hover {
+  color: #F0C49E !important;
+}
+
+.nav-link:hover .underline {
+  visibility: visible !important;
 }
 
 .contact {
@@ -16668,9 +16678,23 @@ fieldset:disabled .btn {
   color: #fff !important;
 }
 
-.footer-img {
+.side-btn {
+  left: 80px;
+  bottom: 160px;
+}
+
+.main-img {
   width: 240px;
   height: 240px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl.png?raw=true);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-img {
+  width: 200px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl-3.png?raw=true);
   background-size: cover;
   background-position: center center;
