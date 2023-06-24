@@ -274,6 +274,8 @@ $spacers: (
   100: $spacer * 6.25,
   120: $spacer * 7.5,
   160: $spacer * 10,
+  200: $spacer * 12.5,
+  240: $spacer * 15,
   ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -497,6 +499,7 @@ $font-sizes: (
   6: $h6-font-size,
   12: 12px,
   14: 14px,
+  16: 16px,
   20: 20px,
   24: 24px,
   32: 32px,
