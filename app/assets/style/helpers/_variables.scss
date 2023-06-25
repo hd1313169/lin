@@ -497,13 +497,13 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  12: 12px,
-  14: 14px,
-  16: 16px,
-  20: 20px,
-  24: 24px,
-  32: 32px,
-  40: 40px,
+  12: .75rem,
+  14: .875rem,
+  16: 1rem,
+  20: 1.25rem,
+  24: 1.5rem,
+  32: 2rem,
+  40: 2.5rem,
 
   ) !default;
 // scss-docs-end font-sizes
