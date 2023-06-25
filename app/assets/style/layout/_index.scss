@@ -1,4 +1,4 @@
-.about-img{
+.img{
   width: 100%;
   height: auto;
 
@@ -9,20 +9,19 @@
 }
 
 .deer{
-  width: 280px;
-  height: 280px;
+  width: 320px;
+  height: 320px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/deer.png?raw=true);
   background-position:  center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.exp-img{
-  width: 100%;
-  height: auto;
 
-  img{
-    width: 100%;
-    height: auto;
-  }
+.contact-img{
+  max-width: 560px;
+  height: auto;
+  position: absolute;
+  bottom: -24px;
+  right: 24px;
 }
