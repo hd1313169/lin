@@ -1,33 +1,34 @@
-.img{
+.img {
   width: 100%;
   height: auto;
 
-  img{
+  img {
     width: 100%;
     height: auto;
   }
 }
 
-.deer{
+.deer {
   width: 320px;
   height: 320px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/deer.png?raw=true);
-  background-position:  center;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 
-.contact-img{
+.contact-img {
   max-width: 560px;
   height: auto;
   position: absolute;
-  bottom: -160px;
+  bottom: -100px;
 }
 
-.timeline{
+.timeline {
   z-index: 998;
-  &::before{
+
+  &::before {
     content: "";
     position: absolute;
     top: -4px;
@@ -37,7 +38,26 @@
     width: 8px;
     height: 8px;
     background: $dark;
-  border-radius: 100px;
+    border-radius: 100px;
   }
+}
 
+.deer-pop {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 116px;
+  height: 116px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.card:hover{
+  .deer-pop{
+    display: block;
+  }
 }
