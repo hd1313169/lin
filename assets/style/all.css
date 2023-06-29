@@ -17338,6 +17338,10 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  position: relative;
+}
+
 .ff-oto {
   font-family: "otomanopee-one", sans-serif;
   font-weight: 400;
@@ -17413,20 +17417,33 @@ fieldset:disabled .btn {
 }
 
 .side-btn {
-  width: 180px;
-  height: 180px;
-  left: 40px;
-  bottom: 240px;
-  z-index: 9999;
+  width: 160px;
+  height: 160px;
+  right: -24px;
+  bottom: 40px;
 }
 
 .main-img {
+  display: none;
   width: 240px;
   height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl.png?raw=true);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .side-btn {
+    width: 180px;
+    height: 180px;
+    left: 24px;
+    bottom: 240px;
+    z-index: 9999;
+  }
+  .main-img {
+    display: block;
+  }
 }
 
 .footer-img {
