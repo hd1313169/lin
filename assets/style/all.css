@@ -17550,17 +17550,24 @@ h1:hover, .h1:hover {
 }
 
 .portfolio-img {
-  width: 100%;
-  height: 240px;
+  width: 160px;
+  height: 160px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl-2.png?raw=true);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 992px) {
+  .portfolio-img {
+    width: 100%;
+    height: 240px;
+  }
+}
+
 .picturebook_01_01 {
   width: 100%;
-  height: 360px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17568,9 +17575,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_01_01 {
+    width: 100%;
+    height: 360px;
+  }
+}
+
 .picturebook_01_02 {
   width: 100%;
-  height: 360px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17578,9 +17592,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_01_02 {
+    width: 100%;
+    height: 360px;
+  }
+}
+
 .picturebook_01_03 {
   width: 100%;
-  height: 360px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17588,9 +17609,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_01_03 {
+    width: 100%;
+    height: 360px;
+  }
+}
+
 .picturebook_01_04 {
   width: 100%;
-  height: 360px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/04.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17598,15 +17626,28 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_01_04 {
+    width: 100%;
+    height: 360px;
+  }
+}
+
 .picturebook_01_05 {
   width: 100%;
-  height: 360px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/05.JPG?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
-  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .picturebook_01_05 {
+    width: 100%;
+    height: 360px;
+  }
 }
 
 .more:hover {
@@ -17624,7 +17665,7 @@ h1:hover, .h1:hover {
 
 .picturebook_02_01 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/01.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17632,9 +17673,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_02_01 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .picturebook_02_02 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/02.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17642,9 +17690,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_02_02 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .picturebook_02_03 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/03.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17652,18 +17707,32 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .picturebook_02_03 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .picturebook_02_04 {
   width: 100%;
-  height: 320px;
+  height: 160px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/04.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  .picturebook_02_04 {
+    width: 100%;
+    height: 320px;
+  }
+}
+
 .work_01 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17671,9 +17740,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .work_01 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .work_02 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17681,18 +17757,32 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .work_02 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .work_03 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  .work_03 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .teach_01 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17700,9 +17790,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .teach_01 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .teach_02 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17710,13 +17807,27 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .teach_02 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .teach_03 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .teach_03 {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 .design_01 {
@@ -17740,7 +17851,7 @@ h1:hover, .h1:hover {
 
 .handmade_01_01 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17748,9 +17859,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .handmade_01_01 {
+    width: 100%;
+    height: 600px;
+  }
+}
+
 .handmade_01_02 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17758,18 +17876,32 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .handmade_01_02 {
+    width: 100%;
+    height: 600px;
+  }
+}
+
 .handmade_01_03 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  .handmade_01_03 {
+    width: 100%;
+    height: 600px;
+  }
+}
+
 .handmade_02_01 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
@@ -17777,9 +17909,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .handmade_02_01 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .handmade_02_02 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/02.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17787,18 +17926,32 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .handmade_02_02 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .handmade_02_03 {
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/03.JPG?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  .handmade_02_03 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_01 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/01.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17806,9 +17959,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_01 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_02 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/02.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17816,9 +17976,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_02 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_03 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/03.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17826,9 +17993,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_03 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_04 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/04.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17836,9 +18010,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_04 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_05 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/05.JPG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17846,9 +18027,16 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_05 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_06 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/06.JPEG?raw=true);
   background-position: center;
   background-size: cover;
@@ -17856,13 +18044,27 @@ h1:hover, .h1:hover {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .photo_06 {
+    width: 100%;
+    height: 480px;
+  }
+}
+
 .photo_07 {
   width: 100%;
-  height: 480px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/07.JPG?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .photo_07 {
+    width: 100%;
+    height: 480px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
