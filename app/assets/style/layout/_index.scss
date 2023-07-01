@@ -61,10 +61,15 @@ height: auto;
 }
 
 .portfolio-img{
-  width: 100%;
-  height: 240px;
+  width: 160px;
+  height: 160px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl-2.png?raw=true);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media (min-width: 992px) {
+    width: 100%;
+    height: 240px;
+  }
 }

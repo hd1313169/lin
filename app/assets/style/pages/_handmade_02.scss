@@ -1,28 +1,43 @@
 .handmade_02_01{
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 480px;
+  }
 }
 
 .handmade_02_02{
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/02.JPG?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 480px;
+  }
 }
 
 .handmade_02_03{
   width: 100%;
-  height: 600px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/03.JPG?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 480px;
+  }
 }

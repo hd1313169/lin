@@ -1,28 +1,43 @@
 .work_01{
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/01.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 .work_02{
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 .work_03{
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 400px;
+  }
 }
