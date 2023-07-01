@@ -17560,29 +17560,53 @@ h1:hover, .h1:hover {
 
 .picturebook_01_01 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 360px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/01.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .picturebook_01_02 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 360px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/02.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .picturebook_01_03 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 360px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/03.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.picturebook_01_04 {
+  width: 100%;
+  height: 360px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/04.jpg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.picturebook_01_05 {
+  width: 100%;
+  height: 360px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_01/05.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .more:hover {
@@ -17600,28 +17624,40 @@ h1:hover, .h1:hover {
 
 .picturebook_02_01 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/01.JPG?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .picturebook_02_02 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/02.JPG?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .picturebook_02_03 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/03.JPG?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.picturebook_02_04 {
+  width: 100%;
+  height: 320px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/picturebook_02/04.jpg?raw=true);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -17715,16 +17751,17 @@ h1:hover, .h1:hover {
 .handmade_01_02 {
   width: 100%;
   height: 600px;
-  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/02.png?raw=true);
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/02.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .handmade_01_03 {
   width: 100%;
   height: 600px;
-  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/03.png?raw=true);
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_01/03.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17732,28 +17769,99 @@ h1:hover, .h1:hover {
 
 .handmade_02_01 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 600px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/01.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .handmade_02_02 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 600px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/02.JPG?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .handmade_02_03 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 600px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/handmade_02/03.JPG?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo_01 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/01.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_02 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/02.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_03 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/03.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_04 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/04.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_05 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/05.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_06 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/06.JPEG?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.photo_07 {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/photo/07.JPG?raw=true);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
