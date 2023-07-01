@@ -26,6 +26,14 @@ body {
   color: $primary;
 }
 
+.navbar-desktop {
+  display: none;
+
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
 .nav-link {
   .underline {
     visibility: hidden;
@@ -47,27 +55,30 @@ body {
 
 }
 
+.offcanvas {
+  width: 80%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
 
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.navbar-toggler {
+  display: block;
 
-  &-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid $primary;
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
 
-    &:hover {
-      background: $primary;
-      color: $white !important;
-    }
+
+h1{
+  display: block;
+  &:hover {
+    color: $secondary !important;
   }
 }
 
 .side-btn {
-
   width: 160px;
   height: 160px;
   right: -24px;
@@ -76,8 +87,8 @@ body {
 
 .main-img {
   display: none;
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl.png?raw=true);
   background-position: center;
   background-size: contain;
@@ -86,10 +97,10 @@ body {
 
 @media (min-width: 768px) {
   .side-btn {
-    width: 180px;
-    height: 180px;
-    left: 24px;
-    bottom: 240px;
+    width: 200px;
+    height: 200px;
+    left: 40px;
+    bottom: 80px;
     z-index: 9999;
   }
 
