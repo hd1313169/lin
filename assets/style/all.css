@@ -17368,6 +17368,16 @@ body {
   color: #479F98;
 }
 
+.navbar-desktop {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-desktop {
+    display: block;
+  }
+}
+
 .nav-link .underline {
   visibility: hidden;
   width: 136px;
@@ -17384,6 +17394,20 @@ body {
 
 .nav-link:hover .underline {
   visibility: visible !important;
+}
+
+.offcanvas {
+  width: 80%;
+}
+
+.navbar-toggler {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
 }
 
 .contact {
@@ -17425,8 +17449,8 @@ body {
 
 .main-img {
   display: none;
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
   background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl.png?raw=true);
   background-position: center;
   background-size: contain;
@@ -17435,10 +17459,10 @@ body {
 
 @media (min-width: 768px) {
   .side-btn {
-    width: 180px;
-    height: 180px;
-    left: 24px;
-    bottom: 240px;
+    width: 200px;
+    height: 200px;
+    left: 40px;
+    bottom: 80px;
     z-index: 9999;
   }
   .main-img {
