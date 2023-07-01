@@ -17400,6 +17400,12 @@ body {
   width: 80%;
 }
 
+@media (min-width: 768px) {
+  .offcanvas {
+    width: 50%;
+  }
+}
+
 .navbar-toggler {
   display: block;
 }
@@ -17410,34 +17416,12 @@ body {
   }
 }
 
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+h1, .h1 {
+  display: block;
 }
 
-.contact-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid #479F98;
-}
-
-.contact-body:hover {
-  background: #479F98;
-  color: #fff !important;
+h1:hover, .h1:hover {
+  color: #F0C49E !important;
 }
 
 .side-btn {
