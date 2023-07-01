@@ -1,4 +1,4 @@
-.teach_01{
+.picturebook_01_01{
   width: 100%;
   height: auto;
   background-image: url();
@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
 }
 
-.teach_02{
+.picturebook_01_02{
   width: 100%;
   height: auto;
   background-image: url();
@@ -16,10 +16,19 @@
   background-repeat: no-repeat;
 }
 
-.teach_03{
+.picturebook_01_03{
   width: 100%;
   height: auto;
   background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.more-img{
+  width: 80px;
+  height: 80px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl-4.png?raw=true);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
