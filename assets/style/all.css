@@ -17558,7 +17558,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_01 {
+.picturebook_01_01 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17567,7 +17567,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_02 {
+.picturebook_01_02 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17576,7 +17576,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_03 {
+.picturebook_01_03 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17585,7 +17585,16 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_01 {
+.more-img {
+  width: 80px;
+  height: 80px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/girl-4.png?raw=true);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.picturebook_02_01 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17594,7 +17603,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_02 {
+.picturebook_02_02 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17603,7 +17612,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_03 {
+.picturebook_02_03 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17612,88 +17621,65 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_01 {
+.work_01 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/01.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
-.teach_02 {
+.work_02 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/02.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
-.teach_03 {
+.work_03 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/work/03.jpg?raw=true);
   background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.teach_01 {
-  width: 100%;
-  height: auto;
-  background-image: url();
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.teach_02 {
-  width: 100%;
-  height: auto;
-  background-image: url();
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.teach_03 {
-  width: 100%;
-  height: auto;
-  background-image: url();
-  background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .teach_01 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/01.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .teach_02 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/02.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 24px;
 }
 
 .teach_03 {
   width: 100%;
-  height: auto;
-  background-image: url();
+  height: 400px;
+  background-image: url(https://github.com/hd1313169/lin/blob/main/app/assets/images/teach/03.jpg?raw=true);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.teach_01 {
+.design_01 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17702,7 +17688,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_02 {
+.design_02 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17711,7 +17697,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_03 {
+.handmade_01_01 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17720,7 +17706,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_01 {
+.handmade_01_02 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17729,7 +17715,7 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_02 {
+.handmade_01_03 {
   width: 100%;
   height: auto;
   background-image: url();
@@ -17738,7 +17724,25 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.teach_03 {
+.handmade_02_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.handmade_02_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.handmade_02_03 {
   width: 100%;
   height: auto;
   background-image: url();
