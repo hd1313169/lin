@@ -17463,6 +17463,33 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 16px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .img {
   width: 100%;
   height: auto;
@@ -17531,31 +17558,193 @@ h1:hover, .h1:hover {
   background-repeat: no-repeat;
 }
 
-.swiper {
+.teach_01 {
   width: 100%;
-  height: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.swiper-slide {
-  font-size: 16px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.swiper-slide img {
-  display: block;
+.teach_03 {
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_01 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_02 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.teach_03 {
+  width: 100%;
+  height: auto;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=all.css.map */
